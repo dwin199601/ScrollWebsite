@@ -81,8 +81,8 @@ let timer = 3000;
 
 //image list
 images [0] = "/diplomas/diploma.jpg";
-images [1] = "/diplomas/masterDiploma.jpg";
-images [2] = "/diplomas/certificateQA.png";
+images [1] = "/diplomas/masterdiploma.jpg";
+images [2] = "/diplomas/certificateqA.png";
 
 //change image
 
