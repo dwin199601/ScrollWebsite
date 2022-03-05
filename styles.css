@@ -1092,7 +1092,9 @@ body {
     }
 
     .navbar_menue.active {
-        background: linear-gradient(to right,rgb(75, 16, 238), rgb(117, 38, 38));;
+        background: #004FF9;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         top:100%;
         opacity: 1;
         transition: all 1s ease;
