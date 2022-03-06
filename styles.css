@@ -36,13 +36,14 @@ body {
 
 #nabar_logo {
  /*background-color: rgb(233, 8, 94);*/
- background-image: linear-gradient(to top, rgba(236, 228, 228), rgb(248, 26, 26));
+ background-image: linear-gradient(to top, rgb(238, 17, 227),rgb(230, 129, 15));
  background-size: 100%;
  -webkit-background-clip: text;
  -moz-background-clip: text;
  -webkit-text-fill-color: transparent;
  -moz-text-fill-color: transparent;
  display: flex;
+ font-weight: bold;
  align-items: center;
  cursor: pointer;
  text-decoration: none;
@@ -1213,64 +1214,13 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(to bottom, rgb(182, 190, 59) 0%, rgb(52, 62, 201) 100%);
+        background-image: linear-gradient(to right, rgb(58, 40, 40) 0%, rgb(15, 2, 46) 100%);
         box-shadow:2px 2px 5px/* 20px represent the amount of blure*/
-        rgba(78, 209, 241, 0.4);
+        rgba(252, 246, 246, 0.2);
         margin: 1rem;
         padding: 1rem;
         border-radius: 5px;
         border-bottom: none;
-    }
-
-    .skillinfo img{
-
-        margin-bottom: 1rem;
-    }
-    .ProgressBar1, .ProgressBar2, .ProgressBar3, .ProgressBar4, .ProgressBar5, .ProgressBar6,
-    .ProgressBar7, .ProgressBar8, .ProgressBar9, .ProgressBar10, .ProgressBar11{
-
-        height: 30px;
-        margin-bottom: 1rem;
-    }
-    .ProgressBox p{
-
-        font-size: 1.2rem;
-        color: rgb(204, 127, 12);
-        font-weight: 700;
-    }
-
-    .percentage{
-
-        font-size: 1.4rem;
-        background: -webkit-linear-gradient(
-        to right,
-        #1b1a1b,
-        #da22ff
-      ); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(
-        to right,
-        #5c0535,
-        #05683f
-      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      
-      background-size: 100%;
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-    }
-
-    .skill_title{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .skillinfo{
-        height: 250px;
-        background-image: linear-gradient(to right, rgb(58, 40, 40) 0%, rgb(15, 2, 46) 100%);
-        box-shadow:2px 2px 5px/* 20px represent the amount of blure*/
-        rgba(252, 246, 246, 0.2);
     }
 
     .percentage{
@@ -1286,6 +1236,36 @@ body {
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
     }
+
+    .skillinfo img{
+        margin-bottom: 1rem;
+    }
+    .ProgressBar1, .ProgressBar2, .ProgressBar3, .ProgressBar4, .ProgressBar5, .ProgressBar6,
+    .ProgressBar7, .ProgressBar8, .ProgressBar9, .ProgressBar10, .ProgressBar11{
+
+        height: 30px;
+        margin-bottom: 1rem;
+    }
+    .ProgressBox p{
+
+        font-size: 1.2rem;
+        color: rgb(204, 127, 12);
+        font-weight: 700;
+    }
+
+    .skill_title{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skillinfo{
+        height: 250px;
+        background-image: linear-gradient(to right, rgb(58, 40, 40) 0%, rgb(15, 2, 46) 100%);
+        box-shadow:2px 2px 5px/* 20px represent the amount of blure*/
+        rgba(252, 246, 246, 0.2);
+    }
+
     .ProgressBar1, .ProgressBar2, .ProgressBar3, .ProgressBar4, .ProgressBar5, 
     .ProgressBar6, .ProgressBar7, .ProgressBar8, .ProgressBar9, .ProgressBar10,
     .ProgressBar11 {
