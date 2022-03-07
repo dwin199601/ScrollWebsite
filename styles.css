@@ -683,8 +683,15 @@ body {
 
 
 .footer_link_items img {
+    border-radius: 50%;
     margin-left: 10px;
     width: 35px;
+    transition: 0.5s ease-out;
+}
+
+.footer_link_items img:hover {
+    transform: scale(1.5);
+    transition: 0.5s ease-in;
 }
 
 .highlight {
@@ -976,6 +983,15 @@ body {
 
 
 @media screen and (max-width: 550px) {
+
+    .footer_link_items img {
+        transition: none;
+    }
+    
+    .footer_link_items img:hover {
+        transform: none;
+        transition: none;
+    }
 
     #nabar_logo {
         background-image: linear-gradient(to top, rgb(230, 208, 228),rgb(230, 129, 15));
