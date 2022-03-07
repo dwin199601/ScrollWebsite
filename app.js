@@ -80,9 +80,9 @@ let images = [];
 let timer = 3000;
 
 //image list
-images [0] = "/diplomas/diploma.jpg";
-images [1] = "/diplomas/masterdiploma.jpg";
-images [2] = "/diplomas/certificateqA.png";
+images [0] = "/diplomas/diploma11.png";
+images [1] = "/diplomas/masterdiploma11.png";
+images [2] = "/diplomas/certificateqa11.png";
 
 //change image
 
