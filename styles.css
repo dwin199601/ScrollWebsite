@@ -1082,7 +1082,6 @@ body {
 @media screen and (max-width: 960px) {
     .scrollBtn {
         display: block;
-        border: 0.5px solid white;
     }
     .hideItem {
         display: flex;
