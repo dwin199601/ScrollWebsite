@@ -976,6 +976,19 @@ body {
 
 
 @media screen and (max-width: 550px) {
+
+    #nabar_logo {
+        background-image: linear-gradient(to top, rgb(230, 208, 228),rgb(230, 129, 15));
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        cursor: none;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
     .skillinfo img  {
         cursor: none;
         transition: none;
@@ -1205,6 +1218,11 @@ body {
         border-color: none;
         animation-name: none;
         animation-duration: none;
+    }
+
+    .project_element {
+        height: 350px;
+        padding-top: 10px;
     }
     
 
